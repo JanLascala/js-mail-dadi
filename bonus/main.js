@@ -13,22 +13,6 @@ console.log(mail_list)
 
 const user_mail = prompt("write your mail")
 
+
 console.log(mail_list.includes(user_mail))
 
-
-
-for (let i = 0; i < mail_list.length; i++) {
-    const this_mail = mail_list[i];
-
-    //compare if + results
-
-    if (user_mail.includes(this_mail)) {
-        console.log("come in!")
-
-    } else {
-        console.log("bug off")
-    }
-
-
-
-}
