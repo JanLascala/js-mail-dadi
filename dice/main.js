@@ -13,6 +13,9 @@ if (my_number > pc_number) {
     console.log("your number wins")
 } else if (pc_number > my_number) {
     console.log("pc wins roll again")
-} else if (pc_number = my_number) {
+} else {
     console.log("DRAW!")
+
 }
+
+
