@@ -13,6 +13,13 @@ console.log(mail_list)
 
 const user_mail = prompt("write your mail")
 
-
 console.log(mail_list.includes(user_mail))
+
+let mail_found = mail_list.includes(user_mail)
+
+if (mail_found === true) {
+    console.log("welcome")
+} else {
+    console.log("unwelcome")
+}
 
