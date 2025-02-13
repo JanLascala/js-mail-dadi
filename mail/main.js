@@ -4,20 +4,30 @@ stampa un messaggio appropriato sull’esito del controllo.
 Lo svolgimento va fatto usando un ciclo for è non usando metodi degli array (come includes, per esempio) . Si puó fare??
 eh si!  Basta ragionare un po’.*/
 
+console.log("work?")
+
 // make list
 
 const mail_list = [`@jack`, `@inid`, `josh`]
+console.log(mail_list)
 // ask user mail
-const user_mail = prompt("write your email")
+const user_mail = prompt("write your mail")
 // check list
+
 for (let i = 0; i < mail_list.length; i++) {
     const this_mail = mail_list[i];
+
     //compare if + results
+
     if (this_mail === user_mail) {
         console.log("come in!")
-    } else If(this_mail !== user_mail){
+
+    } else if (this_mail !== user_mail) {
+
         console.log("bug off")
     }
+
+
 
 }
 
